@@ -1,0 +1,52 @@
+
+.olControlAttribution {
+    top: 10px !important;
+}
+.fullmap {
+    height: 80%;
+}
+.
+
+
+.olPopup {
+	background: #fff; 
+	padding: 20px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+.olPopup h5 {
+	font-size: 24px;
+	font-weight: 700;
+	margin: 0;
+	width: 80%;
+}
+.olPopup ul {
+	float: left;
+	width: 80%;
+}
+.olPopup ul li {
+	margin: 0;
+	font-sizE: 18px;
+	display: block;
+	font-wight: 600;
+}
+.olPopup input {
+	float: right;
+	width: 44px;
+	height: 44px;
+	border: 0;
+	cursor: pointer;
+	text-indent: -9999px;
+	margin: -20px 10px 0 0;
+	background: url(../images/aux/sprite-infowin.png)  0 0 no-repeat;
+}
+.olPopup input:hover {
+	background-position: 0 -50px;
+}
+.olPopup .flecha {
+	position: relative;
+	width: 100%;
+	height: 20px;
+	margin-bottom: -40px;
+	background: url(../images/aux/flecha-tool-map.png)  bottom center no-repeat;
+}
