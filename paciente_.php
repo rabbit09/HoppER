@@ -26,23 +26,26 @@
 if($row[1]=="1")
 {
  $est="Normal";
+ $class = "normal";
 } 
 
 if($row[1]=="2")
 {
  $est="Alto";
+ $class = "alto";
 } 
 
 
 if($row[1]=="3")
 {
  $est="Critico";
+ $class = "critico";
 } 
 
 
   $h .= "<a href='#' id='btn_cerrar' onclick='javascript:cmdCerrar(0);'>Cerrar</a>";
   $h .= "<h2>$row[8]</h2>";
-  $h .= "<div class='estado $est'>$est</div>";
+  $h .= "<div class='estado $class'>$est</div>";
   $h .= "<div class='col1'> <span class='tit'>$row[14]</span> <span class='txt'>personas esperando</span> </div>";
   $h .= "<div class='col2'><span class='tit'>$row[15] hrs</span> <span class='txt'>de espera aprox</span></div>";
   $h .= "<div class='clear'></div>";
