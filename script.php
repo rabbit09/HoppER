@@ -179,7 +179,7 @@ featureCentros[i].popup.hide()
 		var markerMe = null;
 		map.addLayers([layer, vector]);
 		map.setCenter(
-		    new OpenLayers.LonLat(-70.660254, -33.446223).transform(
+		    new OpenLayers.LonLat(-70.570254, -33.526223).transform(
 		        new OpenLayers.Projection("EPSG:4326"),
 		        map.getProjectionObject()
 		    ), 12
